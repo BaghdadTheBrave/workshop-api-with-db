@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace workshop.Contracts.Client
 {
-    internal class AddClientRequest
-    {
-    }
+    public record AddClientRequest(
+        string surname,
+        string name,
+        string patronymic,
+        string settlment,
+        string flat,
+        string street,
+        string house,
+        DateOnly date_of_birth,
+        string phone
+        );
 }

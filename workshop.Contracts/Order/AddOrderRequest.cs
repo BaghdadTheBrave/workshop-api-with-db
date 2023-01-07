@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace workshop.Contracts.Knife
+namespace workshop.Contracts.Order
 {
-    internal class CreateKnifeRequest
-    {
-    }
+    public record AddOrderRequest(
+        int idClient,
+        int idProduct
+    );
 }

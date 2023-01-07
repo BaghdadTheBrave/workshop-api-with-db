@@ -4,19 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace workshop.Contracts.Client
+namespace workshop.Contracts.Craftsmen
 {
-
-    public record ClientResponse(
+    public record CraftsmenResponse(
         int Id,
         string surname,
         string name,
         string patronymic,
         string settlment,
-        string flat,
-        string street,
-        string house,
-        DateOnly date_of_birth,
-        string phone
-        );
+        string rank,
+        string rating,
+        string exp,
+        string phone);
 }

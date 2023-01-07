@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace workshop.Contracts.Client
 {
-    internal class UpsertClientRequest
-    {
-    }
+
+    public record UpsertClientRequest(
+        string surname,
+        string name,
+        string patronymic,
+        string settlment,
+        string flat,
+        string street,
+        string house,
+        DateOnly date_of_birth,
+        string phone
+        );
 }
