@@ -1,0 +1,12 @@
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\bin\Debug\net6.0\workshop.Contracts.deps.json
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\bin\Debug\net6.0\workshop.Contracts.dll
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\bin\Debug\net6.0\workshop.Contracts.pdb
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\obj\Debug\net6.0\workshop.Contracts.csproj.AssemblyReference.cache
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\obj\Debug\net6.0\workshop.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\obj\Debug\net6.0\workshop.Contracts.AssemblyInfoInputs.cache
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\obj\Debug\net6.0\workshop.Contracts.AssemblyInfo.cs
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\obj\Debug\net6.0\workshop.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\obj\Debug\net6.0\workshop.Contracts.dll
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\obj\Debug\net6.0\refint\workshop.Contracts.dll
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\obj\Debug\net6.0\workshop.Contracts.pdb
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop.Contracts\obj\Debug\net6.0\ref\workshop.Contracts.dll
