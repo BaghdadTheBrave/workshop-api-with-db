@@ -27,7 +27,6 @@ namespace workshop.Data
         public virtual DbSet<Opening> Openings { get; set; } = null!;
         public virtual DbSet<Order> Orders { get; set; } = null!;
         public virtual DbSet<Product> Products { get; set; } = null!;
-        public virtual DbSet<Product1> Product1s { get; set; } = null!;
         public virtual DbSet<Shape> Shapes { get; set; } = null!;
         public virtual DbSet<Sheath> Sheaths { get; set; } = null!;
         public virtual DbSet<Steel> Steels { get; set; } = null!;
@@ -356,46 +355,7 @@ namespace workshop.Data
                     .HasConstraintName("FK__Products__idWork__5165187F");
             });
 
-            modelBuilder.Entity<Product1>(entity =>
-            {
-                entity.HasNoKey();
-
-                entity.ToView("product1");
-
-                entity.Property(e => e.LengthProducts).HasColumnName("lengthProducts");
-
-                entity.Property(e => e.NameFixings)
-                    .HasMaxLength(30)
-                    .IsUnicode(false)
-                    .HasColumnName("nameFixings")
-                    .IsFixedLength();
-
-                entity.Property(e => e.NameLocks)
-                    .HasMaxLength(30)
-                    .IsUnicode(false)
-                    .HasColumnName("nameLocks")
-                    .IsFixedLength();
-
-                entity.Property(e => e.NameOpenings)
-                    .HasMaxLength(30)
-                    .IsUnicode(false)
-                    .HasColumnName("nameOpenings")
-                    .IsFixedLength();
-
-                entity.Property(e => e.NameProducts)
-                    .HasMaxLength(30)
-                    .IsUnicode(false)
-                    .HasColumnName("nameProducts")
-                    .IsFixedLength();
-
-                entity.Property(e => e.NameTypess)
-                    .HasMaxLength(30)
-                    .IsUnicode(false)
-                    .HasColumnName("nameTypess")
-                    .IsFixedLength();
-
-                entity.Property(e => e.WeightProducts).HasColumnName("weightProducts");
-            });
+           
 
             modelBuilder.Entity<Shape>(entity =>
             {

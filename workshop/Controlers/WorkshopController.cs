@@ -197,6 +197,8 @@ namespace workshop.Controlers
         [HttpGet("/Product/{id:int}")]
         public IActionResult ShowProduct(int id) 
         {
+
+            
             workshopContext context = new workshopContext();
             var result = from pr in context.Products
                          where pr.IdProducts == id

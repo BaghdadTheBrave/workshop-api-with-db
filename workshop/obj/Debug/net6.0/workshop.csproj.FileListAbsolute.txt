@@ -62,3 +62,8 @@ C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop\obj\Debug\net6.0\
 C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop\obj\Debug\net6.0\workshop.pdb
 C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop\obj\Debug\net6.0\workshop.genruntimeconfig.cache
 C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop\obj\Debug\net6.0\ref\workshop.dll
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\storc\source\repos\workshop-api\workshop_Api\workshop\obj\Debug\net6.0\workshop.MvcApplicationPartsAssemblyInfo.cs
