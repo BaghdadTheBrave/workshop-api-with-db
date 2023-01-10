@@ -15,7 +15,9 @@ namespace workshop.Contracts.Client
         string flat,
         string street,
         string house,
-        DateOnly date_of_birth,
+        int year,
+        int month,
+        int day,
         string phone
         );
 }

@@ -16,6 +16,9 @@ namespace workshop.Contracts.Client
         string flat,
         string street,
         string house,
+        int year,
+        int month,
+        int day,
         string phone
         );
     

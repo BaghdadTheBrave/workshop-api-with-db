@@ -11,7 +11,6 @@ namespace workshop.Contracts.Craftsmen
         string surname,
         string name,
         string patronymic,
-        string settlment,
         string rank,
         string rating,
         string exp,

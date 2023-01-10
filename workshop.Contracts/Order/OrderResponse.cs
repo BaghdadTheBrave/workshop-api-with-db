@@ -13,6 +13,8 @@ namespace workshop.Contracts.Order
         string clientName,
         int idProduct,
         string productName,
-        DateOnly startDate
+        int year,
+        int month,
+        int day
     );
 }
